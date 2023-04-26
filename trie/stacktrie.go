@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

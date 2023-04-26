@@ -21,7 +21,7 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"fmt"
-	"github.com/fff-chain/go-fff/global_config/utils"
+	"github.com/liuguodong24-8/go-fff-master/global_config/utils"
 	"log"
 	"math/big"
 	"reflect"
@@ -30,21 +30,21 @@ import (
 )
 
 func TestBytesConversion(t *testing.T) {
-	newA:=HexToAddress("FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE")
-	bb,_:= newA.MarshalText()
+	newA := HexToAddress("FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE")
+	bb, _ := newA.MarshalText()
 
-	input:=[]byte(`"FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE"`)
-	newS:=string(input)
+	input := []byte(`"FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE"`)
+	newS := string(input)
 
-	log.Println(newS[1:len(newS)-1])
+	log.Println(newS[1 : len(newS)-1])
 
-	input = []byte( `"`+ utils.FFFAddressDecode(newS[1:len(newS)-1]) +`"`)
+	input = []byte(`"` + utils.FFFAddressDecode(newS[1:len(newS)-1]) + `"`)
 
 	log.Println(string(input))
 
-	e:=newA.UnmarshalJSON([]byte(`"FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE"`))
+	e := newA.UnmarshalJSON([]byte(`"FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE"`))
 
-	log.Println(string(bb),e)
+	log.Println(string(bb), e)
 }
 
 func TestIsHexAddress(t *testing.T) {

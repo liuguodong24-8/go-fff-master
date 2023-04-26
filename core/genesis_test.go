@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

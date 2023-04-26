@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	math2 "github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	math2 "github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the
@@ -289,7 +289,7 @@ type parityChainSpec struct {
 		GasLimit   hexutil.Uint64 `json:"gasLimit"`
 	} `json:"genesis"`
 
-	Nodes    []string                                             `json:"nodes"`
+	Nodes    []string                                   `json:"nodes"`
 	Accounts map[common.Address]*parityChainSpecAccount `json:"accounts"`
 }
 

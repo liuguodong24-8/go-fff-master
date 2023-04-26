@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/simulations"
-	"github.com/fff-chain/go-fff/p2p/simulations/adapters"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations/adapters"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

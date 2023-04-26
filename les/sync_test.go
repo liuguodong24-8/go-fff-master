@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/light"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/light"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/fff-chain/go-fff/issues/20097 for more detail.
+	// See https://github.com/liuguodong24-8/go-fff-master/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

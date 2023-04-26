@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

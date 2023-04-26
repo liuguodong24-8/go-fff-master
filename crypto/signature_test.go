@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/common/math"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
 )
 
 var (

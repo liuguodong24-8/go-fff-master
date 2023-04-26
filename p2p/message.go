@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // Msg defines the structure of a p2p message.

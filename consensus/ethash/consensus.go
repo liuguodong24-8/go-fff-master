@@ -26,16 +26,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/consensus/misc"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rlp"
-	"github.com/fff-chain/go-fff/trie"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/consensus/misc"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
+	"github.com/liuguodong24-8/go-fff-master/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -50,7 +50,7 @@ var (
 	// calcDifficultyEip2384 is the difficulty adjustment algorithm as specified by EIP 2384.
 	// It offsets the bomb 4M blocks from Constantinople, so in total 9M blocks.
 	// Specification EIP-2384: https://eips.ethereum.org/EIPS/eip-2384
-	calcDifficultyEip2384 = makeDifficultyCalculator(big.NewInt(9000000))
+	calcDifficultyEip2384  = makeDifficultyCalculator(big.NewInt(9000000))
 	calcDifficultyEip23866 = makeDifficultyCalculator(big.NewInt(10700000))
 
 	// calcDifficultyConstantinople is the difficulty adjustment algorithm for Constantinople.
@@ -408,9 +408,9 @@ func makeDifficultyCalculator(bombDelay *big.Int) func(time uint64, parent *type
 
 		if periodCount.Cmp(big1) > 0 {
 			y.Sub(periodCount, big2)
-			z:=y.Exp(big2, y, nil)
+			z := y.Exp(big2, y, nil)
 
-			log.Println(periodCount,z)
+			log.Println(periodCount, z)
 			x.Add(x, y)
 		}
 		return x

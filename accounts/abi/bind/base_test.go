@@ -24,13 +24,13 @@ import (
 	"testing"
 
 	"github.com/fff-chain/go-fff"
-	"github.com/fff-chain/go-fff/accounts/abi"
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 type mockCaller struct {

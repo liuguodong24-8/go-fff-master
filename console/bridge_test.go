@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/fff-chain/go-fff/internal/jsre"
+	"github.com/liuguodong24-8/go-fff-master/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

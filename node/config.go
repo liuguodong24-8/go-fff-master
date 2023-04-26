@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/accounts/external"
-	"github.com/fff-chain/go-fff/accounts/keystore"
-	"github.com/fff-chain/go-fff/accounts/scwallet"
-	"github.com/fff-chain/go-fff/accounts/usbwallet"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/accounts/external"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/accounts/scwallet"
+	"github.com/liuguodong24-8/go-fff-master/accounts/usbwallet"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 const (

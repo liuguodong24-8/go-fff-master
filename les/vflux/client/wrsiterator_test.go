@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/mclock"
-	"github.com/fff-chain/go-fff/p2p/nodestate"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nodestate"
 )
 
 var (

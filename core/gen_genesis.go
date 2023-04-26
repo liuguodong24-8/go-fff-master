@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

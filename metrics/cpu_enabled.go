@@ -14,12 +14,13 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build !ios
 // +build !ios
 
 package metrics
 
 import (
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

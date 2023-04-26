@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fff-chain/go-fff/node"
+	"github.com/liuguodong24-8/go-fff-master/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

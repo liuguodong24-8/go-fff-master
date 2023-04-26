@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

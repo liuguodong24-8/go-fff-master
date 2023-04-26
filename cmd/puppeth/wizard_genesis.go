@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

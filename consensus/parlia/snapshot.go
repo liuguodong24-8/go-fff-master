@@ -24,13 +24,13 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/params"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // Snapshot is the state of the validatorSet at a given point.

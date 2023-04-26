@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fff-chain/go-fff/signer/core"
-	"github.com/fff-chain/go-fff/signer/fourbyte"
+	"github.com/liuguodong24-8/go-fff-master/signer/core"
+	"github.com/liuguodong24-8/go-fff-master/signer/fourbyte"
 )
 
 func init() {

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

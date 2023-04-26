@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 	"golang.org/x/crypto/sha3"
 )
 

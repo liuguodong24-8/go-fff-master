@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build !js
 // +build !js
 
 // Package leveldb implements the key-value database layer based on LevelDB.
@@ -26,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/metrics"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

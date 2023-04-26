@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/crypto"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

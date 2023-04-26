@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

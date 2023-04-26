@@ -26,11 +26,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // Storage represents a contract's storage.

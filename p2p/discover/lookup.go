@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

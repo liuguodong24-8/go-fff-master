@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // ReadTxLookupEntry retrieves the positional metadata associated with a transaction

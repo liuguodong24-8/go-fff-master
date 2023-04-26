@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/fff-chain/go-fff/cmd/devp2p/internal/ethtest"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/internal/utesting"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/rlpx"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/cmd/devp2p/internal/ethtest"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/internal/utesting"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/rlpx"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

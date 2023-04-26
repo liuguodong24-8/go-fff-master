@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/crypto"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

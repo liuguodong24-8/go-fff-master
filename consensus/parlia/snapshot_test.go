@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 func TestValidatorSetSort(t *testing.T) {

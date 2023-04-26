@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/tests/fuzzers/vflux"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/tests/fuzzers/vflux"
 )
 
 func main() {

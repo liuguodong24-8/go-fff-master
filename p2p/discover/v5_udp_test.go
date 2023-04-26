@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/internal/testlog"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/discover/v5wire"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/enr"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/internal/testlog"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover/v5wire"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

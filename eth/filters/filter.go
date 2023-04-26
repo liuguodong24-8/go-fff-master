@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/bloombits"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/bloombits"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 const maxFilterBlockRange = 5000
@@ -119,7 +119,6 @@ func newFilter(backend Backend, addresses []common.Address, topics [][]common.Ha
 		db:        backend.ChainDb(),
 	}
 }
-
 
 // Logs searches the blockchain for matching log entries, returning all from the
 // first block that contains matches, updating the start of the filter accordingly.

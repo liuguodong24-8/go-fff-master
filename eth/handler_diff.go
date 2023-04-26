@@ -19,9 +19,9 @@ package eth
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth/protocols/diff"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/diff"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // diffHandler implements the diff.Backend interface to handle the various network

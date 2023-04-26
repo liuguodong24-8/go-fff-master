@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/consensus/misc"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/systemcontracts"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/consensus/misc"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/systemcontracts"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // BlockGen creates blocks for testing.

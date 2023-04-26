@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fff-chain/go-fff/internal/testlog"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/liuguodong24-8/go-fff-master/internal/testlog"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

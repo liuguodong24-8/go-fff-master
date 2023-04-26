@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/fff-chain/go-fff/core/vm/lightclient"
+	"github.com/liuguodong24-8/go-fff-master/core/vm/lightclient"
 	"github.com/stretchr/testify/require"
 )
 

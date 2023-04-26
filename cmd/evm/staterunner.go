@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/tests"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

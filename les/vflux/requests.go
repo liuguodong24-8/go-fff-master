@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

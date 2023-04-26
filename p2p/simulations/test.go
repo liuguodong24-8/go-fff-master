@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/enr"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 // NoopService is the service that does not do anything

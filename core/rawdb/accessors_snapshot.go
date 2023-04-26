@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

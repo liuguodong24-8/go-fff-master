@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/accounts/external"
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/contracts/checkpointoracle"
-	"github.com/fff-chain/go-fff/ethclient"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/accounts/external"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/contracts/checkpointoracle"
+	"github.com/liuguodong24-8/go-fff-master/ethclient"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

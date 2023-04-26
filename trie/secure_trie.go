@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

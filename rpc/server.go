@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 const MetadataApi = "rpc"
@@ -63,7 +63,7 @@ func NewServer() *Server {
 // subscription an error is returned. Otherwise a new service is created and added to the
 // service collection this server provides to clients.
 func (s *Server) RegisterName(name string, receiver interface{}) error {
-	log.Info("注册服务","服务",name,"re",receiver)
+	log.Info("注册服务", "服务", name, "re", receiver)
 	return s.services.registerName(name, receiver)
 }
 

@@ -2,8 +2,8 @@ package test
 
 import (
 	"fmt"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/global_config/wallet"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/global_config/wallet"
 	"testing"
 )
 

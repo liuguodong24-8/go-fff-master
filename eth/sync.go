@@ -22,14 +22,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/protocols/eth"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/eth"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 const (

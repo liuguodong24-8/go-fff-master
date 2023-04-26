@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common/math"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
 )
 
 type testEncoder struct {

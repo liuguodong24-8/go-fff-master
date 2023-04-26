@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/crypto"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/internal/testlog"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/discover/v4wire"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/internal/testlog"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover/v4wire"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
 )
 
 // shared test variables

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/fff-chain/go-fff/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

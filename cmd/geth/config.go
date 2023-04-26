@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 	"math/big"
 	"os"
 	"reflect"
@@ -31,13 +31,13 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/eth/catalyst"
-	"github.com/fff-chain/go-fff/eth/ethconfig"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/metrics"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/eth/catalyst"
+	"github.com/liuguodong24-8/go-fff-master/eth/ethconfig"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/metrics"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/params"
 	"github.com/naoina/toml"
 )
 

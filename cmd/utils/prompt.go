@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/console/prompt"
+	"github.com/liuguodong24-8/go-fff-master/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

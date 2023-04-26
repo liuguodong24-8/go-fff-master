@@ -25,15 +25,15 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/accounts/keystore"
-	"github.com/fff-chain/go-fff/accounts/scwallet"
-	"github.com/fff-chain/go-fff/accounts/usbwallet"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/signer/storage"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/accounts/scwallet"
+	"github.com/liuguodong24-8/go-fff-master/accounts/usbwallet"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/signer/storage"
 )
 
 const (

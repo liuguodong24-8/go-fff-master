@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/fff-chain/go-fff/core/types"
+import "github.com/liuguodong24-8/go-fff-master/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

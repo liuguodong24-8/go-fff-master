@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

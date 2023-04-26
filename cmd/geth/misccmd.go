@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

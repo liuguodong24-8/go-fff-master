@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/signer/core"
-	"github.com/fff-chain/go-fff/signer/rules/deps"
-	"github.com/fff-chain/go-fff/signer/storage"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/signer/core"
+	"github.com/liuguodong24-8/go-fff-master/signer/rules/deps"
+	"github.com/liuguodong24-8/go-fff-master/signer/storage"
 )
 
 var (

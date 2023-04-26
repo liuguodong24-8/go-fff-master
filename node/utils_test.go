@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

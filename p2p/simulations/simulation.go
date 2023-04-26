@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

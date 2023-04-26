@@ -24,14 +24,14 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/simulations/pipes"
-	"github.com/fff-chain/go-fff/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations/pipes"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

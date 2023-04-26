@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/fff-chain/go-fff/tests/fuzzers/rangeproof"
+	"github.com/liuguodong24-8/go-fff-master/tests/fuzzers/rangeproof"
 )
 
 func main() {

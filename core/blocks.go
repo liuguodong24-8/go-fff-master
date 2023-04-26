@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/fff-chain/go-fff/common"
+import "github.com/liuguodong24-8/go-fff-master/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/types"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

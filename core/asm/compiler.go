@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
 )
 
 // Compiler contains information about the parsed source

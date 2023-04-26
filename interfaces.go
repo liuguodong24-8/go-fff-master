@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"go-fff-master/common"
-	"go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

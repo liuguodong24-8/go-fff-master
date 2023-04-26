@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/bitutil"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/bitutil"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"golang.org/x/crypto/sha3"
 )
 

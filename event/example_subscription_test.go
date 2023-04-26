@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/event"
+	"github.com/liuguodong24-8/go-fff-master/event"
 )
 
 func ExampleNewSubscription() {

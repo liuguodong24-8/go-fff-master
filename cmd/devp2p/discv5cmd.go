@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fff-chain/go-fff/cmd/devp2p/internal/v5test"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/p2p/discover"
+	"github.com/liuguodong24-8/go-fff-master/cmd/devp2p/internal/v5test"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

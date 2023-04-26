@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

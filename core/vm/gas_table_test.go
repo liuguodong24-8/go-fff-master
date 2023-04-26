@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

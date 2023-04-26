@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/fff-chain/go-fff/cmd/devp2p/internal/v4test"
-	"github.com/fff-chain/go-fff/internal/utesting"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/cmd/devp2p/internal/v4test"
+	"github.com/liuguodong24-8/go-fff-master/internal/utesting"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

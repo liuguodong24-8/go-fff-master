@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/fff-chain/go-fff/cmd/evm/internal/compiler"
+	"github.com/liuguodong24-8/go-fff-master/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

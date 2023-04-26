@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

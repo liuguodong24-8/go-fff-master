@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

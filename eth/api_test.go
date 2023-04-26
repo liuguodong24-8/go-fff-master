@@ -25,10 +25,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/crypto"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

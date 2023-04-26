@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/mclock"
-	"github.com/fff-chain/go-fff/common/prque"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/nodestate"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/common/prque"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nodestate"
 )
 
 const (

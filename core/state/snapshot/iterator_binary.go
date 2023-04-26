@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

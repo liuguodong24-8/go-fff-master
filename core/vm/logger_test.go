@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/params"
 	"github.com/holiman/uint256"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 type dummyContractRef struct {

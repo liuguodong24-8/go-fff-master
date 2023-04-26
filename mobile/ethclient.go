@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/ethclient"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/mclock"
-	"github.com/fff-chain/go-fff/internal/testlog"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/netutil"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/internal/testlog"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

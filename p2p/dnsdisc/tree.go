@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/enr"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -22,20 +22,20 @@ package geth
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 	"path/filepath"
 
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/ethconfig"
-	"github.com/fff-chain/go-fff/ethclient"
-	"github.com/fff-chain/go-fff/ethstats"
-	"github.com/fff-chain/go-fff/internal/debug"
-	"github.com/fff-chain/go-fff/les"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/nat"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/ethconfig"
+	"github.com/liuguodong24-8/go-fff-master/ethclient"
+	"github.com/liuguodong24-8/go-fff-master/ethstats"
+	"github.com/liuguodong24-8/go-fff-master/internal/debug"
+	"github.com/liuguodong24-8/go-fff-master/les"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nat"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 type diffTest struct {
@@ -90,9 +90,9 @@ func TestCalcDifficulty(t *testing.T) {
 	}
 }
 func TestMakeDataset(t *testing.T) {
-	df,_:=new(big.Int).SetString("13812444150502336",0)
+	df, _ := new(big.Int).SetString("13812444150502336", 0)
 
-	z:=calcDifficultyEip23866(uint64(time.Now().Unix()),&types.Header{
+	z := calcDifficultyEip23866(uint64(time.Now().Unix()), &types.Header{
 		ParentHash:  common.Hash{},
 		UncleHash:   common.Hash{},
 		Coinbase:    common.Address{},

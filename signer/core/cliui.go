@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/console/prompt"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/console/prompt"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 type CommandlineUI struct {

@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/fff-chain/go-fff/accounts/abi"
 	fuzz "github.com/google/gofuzz"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
 )
 
 var (

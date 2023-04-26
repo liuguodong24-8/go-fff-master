@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb/memorydb"
-	"github.com/fff-chain/go-fff/trie"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb/memorydb"
+	"github.com/liuguodong24-8/go-fff-master/trie"
 )
 
 // randTest performs random trie operations.

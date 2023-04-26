@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

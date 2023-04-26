@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // Forks table defines supported forks and their chain config.

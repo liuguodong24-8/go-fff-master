@@ -27,16 +27,16 @@ import (
 	"time"
 
 	"github.com/fff-chain/go-fff"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/bloombits"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/bloombits"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 var (

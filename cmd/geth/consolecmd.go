@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/console"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/console"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

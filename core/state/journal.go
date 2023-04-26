@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

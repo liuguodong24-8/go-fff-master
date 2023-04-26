@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/protocols/diff"
-	"github.com/fff-chain/go-fff/eth/protocols/eth"
-	"github.com/fff-chain/go-fff/eth/protocols/snap"
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/diff"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/eth"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/snap"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 var (

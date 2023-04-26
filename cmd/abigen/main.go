@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/fff-chain/go-fff/accounts/abi"
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/common/compiler"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/internal/flags"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/common/compiler"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/internal/flags"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

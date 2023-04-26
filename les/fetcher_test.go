@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

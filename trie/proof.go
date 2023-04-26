@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/ethdb/memorydb"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/ethdb/memorydb"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

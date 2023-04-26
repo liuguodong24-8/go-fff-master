@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

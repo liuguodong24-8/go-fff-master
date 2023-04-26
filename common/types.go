@@ -22,12 +22,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/fff-chain/go-fff/global_config/utils"
+	"github.com/liuguodong24-8/go-fff-master/global_config/utils"
 	"math/big"
 	"math/rand"
 	"reflect"
 
-	"github.com/fff-chain/go-fff/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

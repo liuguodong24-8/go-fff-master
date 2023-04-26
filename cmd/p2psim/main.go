@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/simulations"
-	"github.com/fff-chain/go-fff/p2p/simulations/adapters"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations/adapters"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

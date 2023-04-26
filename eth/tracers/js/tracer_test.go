@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/eth/tracers"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/eth/tracers"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 type account struct{}

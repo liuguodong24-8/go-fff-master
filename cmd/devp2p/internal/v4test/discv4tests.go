@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/internal/utesting"
-	"github.com/fff-chain/go-fff/p2p/discover/v4wire"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/internal/utesting"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover/v4wire"
 )
 
 const (

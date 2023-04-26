@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/fff-chain/go-fff/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

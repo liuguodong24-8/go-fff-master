@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

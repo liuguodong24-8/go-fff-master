@@ -3,8 +3,8 @@ package common
 import (
 	"database/sql/driver"
 	"fmt"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/global_config/utils"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/global_config/utils"
 	"math/big"
 	. "strings"
 )
@@ -53,6 +53,7 @@ func FFFAddressesToAddresses(address []FFFAddress) []Address {
 	return fffAddress
 
 }
+
 // BigToAddress returns FFFAddress with byte values of b.
 // If b is larger than len(h), b will be cropped from the left.
 func BigToFFFAddress(b *big.Int) FFFAddress {

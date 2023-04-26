@@ -37,7 +37,7 @@ package native
 import (
 	"errors"
 
-	"github.com/fff-chain/go-fff/eth/tracers"
+	"github.com/liuguodong24-8/go-fff-master/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

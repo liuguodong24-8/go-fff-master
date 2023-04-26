@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/protocols/eth"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/eth"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // Tests that fast sync is disabled after a successful sync cycle.

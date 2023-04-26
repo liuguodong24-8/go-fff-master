@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth/protocols/snap"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/snap"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

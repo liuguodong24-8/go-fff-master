@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 var (

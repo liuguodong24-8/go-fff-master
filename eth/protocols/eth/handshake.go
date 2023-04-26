@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/core/forkid"
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/core/forkid"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 const (

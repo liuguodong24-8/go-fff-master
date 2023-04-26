@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts/keystore"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/console/prompt"
-	"github.com/fff-chain/go-fff/p2p/dnsdisc"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/console/prompt"
+	"github.com/liuguodong24-8/go-fff-master/p2p/dnsdisc"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

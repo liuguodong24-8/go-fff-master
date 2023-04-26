@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/log"
 	"github.com/karalabe/usb"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

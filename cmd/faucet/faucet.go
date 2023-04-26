@@ -41,25 +41,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/accounts/abi"
-	"github.com/fff-chain/go-fff/accounts/keystore"
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/ethconfig"
-	"github.com/fff-chain/go-fff/ethclient"
-	"github.com/fff-chain/go-fff/ethstats"
-	"github.com/fff-chain/go-fff/les"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/nat"
-	"github.com/fff-chain/go-fff/params"
 	"github.com/gorilla/websocket"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/ethconfig"
+	"github.com/liuguodong24-8/go-fff-master/ethclient"
+	"github.com/liuguodong24-8/go-fff-master/ethstats"
+	"github.com/liuguodong24-8/go-fff-master/les"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nat"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 var (
@@ -509,7 +509,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/fff-chain/go-fff/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/liuguodong24-8/go-fff-master/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

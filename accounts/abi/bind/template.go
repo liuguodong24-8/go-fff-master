@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/fff-chain/go-fff/accounts/abi"
+import "github.com/liuguodong24-8/go-fff-master/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,11 +92,11 @@ import (
 	"strings"
 
 	ethereum "github.com/fff-chain/go-fff"
-	"github.com/fff-chain/go-fff/accounts/abi"
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/event"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

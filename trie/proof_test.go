@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/ethdb/memorydb"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/ethdb/memorydb"
 )
 
 func init() {

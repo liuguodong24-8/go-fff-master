@@ -24,20 +24,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts/abi"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/asm"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/state"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/eth/tracers"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/asm"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/eth/tracers"
+	"github.com/liuguodong24-8/go-fff-master/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/fff-chain/go-fff/eth/tracers/js"
+	_ "github.com/liuguodong24-8/go-fff-master/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -625,7 +625,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/fff-chain/go-fff/issues/22649
+// see: https://github.com/liuguodong24-8/go-fff-master/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

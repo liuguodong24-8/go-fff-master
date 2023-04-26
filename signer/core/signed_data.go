@@ -30,15 +30,15 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/consensus/clique"
-	"github.com/fff-chain/go-fff/consensus/parliautil"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/consensus/clique"
+	"github.com/liuguodong24-8/go-fff-master/consensus/parliautil"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 type SigFormat struct {
@@ -701,7 +701,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/fff-chain/go-fff/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/liuguodong24-8/go-fff-master/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

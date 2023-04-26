@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

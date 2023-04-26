@@ -18,27 +18,27 @@
 package ethconfig
 
 import (
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 	"math/big"
 	"os/user"
 	"path/filepath"
 	"runtime"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus"
-	"github.com/fff-chain/go-fff/consensus/clique"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/consensus/parlia"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/gasprice"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/miner"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus"
+	"github.com/liuguodong24-8/go-fff-master/consensus/clique"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/consensus/parlia"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/gasprice"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/miner"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // FullNodeGPO contains default gasprice oracle settings for full node.

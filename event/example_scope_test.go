@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/fff-chain/go-fff/event"
+	"github.com/liuguodong24-8/go-fff-master/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

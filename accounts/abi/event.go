@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

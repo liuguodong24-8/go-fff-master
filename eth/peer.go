@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/eth/protocols/diff"
-	"github.com/fff-chain/go-fff/eth/protocols/eth"
-	"github.com/fff-chain/go-fff/eth/protocols/snap"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/diff"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/eth"
+	"github.com/liuguodong24-8/go-fff-master/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

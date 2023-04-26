@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/p2p/discover/v4wire"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover/v4wire"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

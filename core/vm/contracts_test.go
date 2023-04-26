@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

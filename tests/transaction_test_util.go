@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.
@@ -40,8 +40,8 @@ type TransactionTest struct {
 }
 
 type ttFork struct {
-	Sender common.Address `json:"sender"`
-	Hash   common.UnprefixedHash    `json:"hash"`
+	Sender common.Address        `json:"sender"`
+	Hash   common.UnprefixedHash `json:"hash"`
 }
 
 func (tt *TransactionTest) Run(config *params.ChainConfig) error {

@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/simulations/adapters"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/simulations/adapters"
 )
 
 //a map of mocker names to its function

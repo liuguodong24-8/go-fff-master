@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/contracts/checkpointoracle"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/contracts/checkpointoracle"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

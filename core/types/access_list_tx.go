@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

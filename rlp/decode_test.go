@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common/math"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

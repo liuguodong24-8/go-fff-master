@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/fff-chain/go-fff/common/bitutil"
-	"github.com/fff-chain/go-fff/light"
+	"github.com/liuguodong24-8/go-fff-master/common/bitutil"
+	"github.com/liuguodong24-8/go-fff-master/light"
 )
 
 const (

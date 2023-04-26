@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/fff-chain/go-fff/core/vm/lightclient"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/core/vm/lightclient"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 const (

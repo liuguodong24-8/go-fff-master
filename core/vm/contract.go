@@ -21,9 +21,9 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/metrics"
 	"github.com/holiman/uint256"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/metrics"
 )
 
 const codeBitmapCacheSize = 2000

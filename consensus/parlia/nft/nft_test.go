@@ -3,11 +3,11 @@ package nft
 import (
 	"context"
 	"fmt"
-	"github.com/fff-chain/go-fff/accounts/abi/bind"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/ethclient"
-	"github.com/fff-chain/go-fff/global_config/wallet"
+	"github.com/liuguodong24-8/go-fff-master/accounts/abi/bind"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/ethclient"
+	"github.com/liuguodong24-8/go-fff-master/global_config/wallet"
 	"log"
 	"testing"
 )

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 func minSwapStack(n int) int {

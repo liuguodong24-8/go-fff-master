@@ -17,7 +17,7 @@
 package diff
 
 import (
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `diff` protocol on the discovery.

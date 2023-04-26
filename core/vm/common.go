@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/math"
 	"github.com/holiman/uint256"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

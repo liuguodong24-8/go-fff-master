@@ -35,24 +35,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/accounts/keystore"
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/internal/ethapi"
-	"github.com/fff-chain/go-fff/internal/flags"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/node"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rlp"
-	"github.com/fff-chain/go-fff/rpc"
-	"github.com/fff-chain/go-fff/signer/core"
-	"github.com/fff-chain/go-fff/signer/fourbyte"
-	"github.com/fff-chain/go-fff/signer/rules"
-	"github.com/fff-chain/go-fff/signer/storage"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/internal/ethapi"
+	"github.com/liuguodong24-8/go-fff-master/internal/flags"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/node"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
+	"github.com/liuguodong24-8/go-fff-master/signer/core"
+	"github.com/liuguodong24-8/go-fff-master/signer/fourbyte"
+	"github.com/liuguodong24-8/go-fff-master/signer/rules"
+	"github.com/liuguodong24-8/go-fff-master/signer/storage"
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/fff-chain/go-fff/issues/20123
+	// https://github.com/liuguodong24-8/go-fff-master/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

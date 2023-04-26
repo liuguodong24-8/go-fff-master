@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

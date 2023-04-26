@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

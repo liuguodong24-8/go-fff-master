@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 func TestTransaction(t *testing.T) {

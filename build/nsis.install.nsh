@@ -3,8 +3,8 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/fff-chain/go-fff/issues"
-!define UPDATEURL "https://github.com/fff-chain/go-fff/releases"
+!define HELPURL "https://github.com/liuguodong24-8/go-fff-master/issues"
+!define UPDATEURL "https://github.com/liuguodong24-8/go-fff-master/releases"
 !define ABOUTURL "https://github.com/fff-chain/go-fff#ethereum-go"
 !define /date NOW "%Y%m%d"
 

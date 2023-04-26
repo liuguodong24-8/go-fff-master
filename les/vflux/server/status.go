@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/fff-chain/go-fff/p2p/nodestate"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

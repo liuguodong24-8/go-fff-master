@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/fff-chain/go-fff/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

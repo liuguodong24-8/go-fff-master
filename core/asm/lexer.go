@@ -23,7 +23,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/fff-chain/go-fff/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
 )
 
 // stateFn is used through the lifetime of the

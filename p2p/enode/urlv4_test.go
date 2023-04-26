@@ -21,14 +21,14 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"go-fff-master/accounts/keystore"
+	"github.com/liuguodong24-8/go-fff-master/accounts/keystore"
 	"net"
 	"reflect"
 	"strings"
 	"testing"
 
-	"go-fff-master/crypto"
-	"go-fff-master/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
 )
 
 func init() {

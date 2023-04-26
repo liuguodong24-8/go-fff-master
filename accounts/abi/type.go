@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // Type enumerator

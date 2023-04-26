@@ -17,15 +17,15 @@
 package node
 
 import (
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 	"os"
 	"os/user"
 	"path/filepath"
 	"runtime"
 
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/p2p/nat"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nat"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 const (

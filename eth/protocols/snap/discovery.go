@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

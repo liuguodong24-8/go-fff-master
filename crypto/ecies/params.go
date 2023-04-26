@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/fff-chain/go-fff/crypto"
+	ethcrypto "github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 var (

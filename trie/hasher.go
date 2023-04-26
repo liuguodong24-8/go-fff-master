@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

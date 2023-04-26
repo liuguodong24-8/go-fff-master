@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p/enr"
-	"github.com/fff-chain/go-fff/p2p/netutil"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/p2p/netutil"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/internal/utesting"
-	"github.com/fff-chain/go-fff/p2p/discover/v5wire"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/netutil"
+	"github.com/liuguodong24-8/go-fff-master/internal/utesting"
+	"github.com/liuguodong24-8/go-fff-master/p2p/discover/v5wire"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

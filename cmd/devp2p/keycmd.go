@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

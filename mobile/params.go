@@ -20,10 +20,10 @@ package geth
 
 import (
 	"encoding/json"
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

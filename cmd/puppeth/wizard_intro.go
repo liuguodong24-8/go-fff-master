@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

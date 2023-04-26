@@ -29,10 +29,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fff-chain/go-fff/accounts"
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/crypto"
 	"github.com/google/uuid"
+	"github.com/liuguodong24-8/go-fff-master/accounts"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
 )
 
 const (
@@ -115,7 +115,7 @@ func (k *Key) UnmarshalJSON(j []byte) (err error) {
 		return err
 	}
 	k.Id = *u
-	addr:= common.HexToAddress(keyJSON.Address)
+	addr := common.HexToAddress(keyJSON.Address)
 
 	privkey, err := crypto.HexToECDSA(keyJSON.PrivateKey)
 	if err != nil {

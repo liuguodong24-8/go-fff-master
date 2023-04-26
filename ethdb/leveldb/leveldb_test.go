@@ -17,8 +17,8 @@
 package leveldb
 
 import (
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/ethdb/dbtest"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"testing"

@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/types"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

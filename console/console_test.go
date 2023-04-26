@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/console/prompt"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth"
-	"github.com/fff-chain/go-fff/eth/ethconfig"
-	"github.com/fff-chain/go-fff/internal/jsre"
-	"github.com/fff-chain/go-fff/miner"
-	"github.com/fff-chain/go-fff/node"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/console/prompt"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth"
+	"github.com/liuguodong24-8/go-fff-master/eth/ethconfig"
+	"github.com/liuguodong24-8/go-fff-master/internal/jsre"
+	"github.com/liuguodong24-8/go-fff-master/miner"
+	"github.com/liuguodong24-8/go-fff-master/node"
 )
 
 const (

@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/core/state"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

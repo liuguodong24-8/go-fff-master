@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/consensus/ethash"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/eth/downloader"
-	"github.com/fff-chain/go-fff/eth/gasprice"
-	"github.com/fff-chain/go-fff/miner"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/consensus/ethash"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/eth/downloader"
+	"github.com/liuguodong24-8/go-fff-master/eth/gasprice"
+	"github.com/liuguodong24-8/go-fff-master/miner"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 // MarshalTOML marshals as TOML.

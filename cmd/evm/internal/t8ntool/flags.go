@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/tests"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

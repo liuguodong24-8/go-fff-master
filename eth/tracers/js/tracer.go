@@ -28,14 +28,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/crypto"
-	tracers2 "github.com/fff-chain/go-fff/eth/tracers"
-	"github.com/fff-chain/go-fff/eth/tracers/js/internal/tracers"
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	tracers2 "github.com/liuguodong24-8/go-fff-master/eth/tracers"
+	"github.com/liuguodong24-8/go-fff-master/eth/tracers/js/internal/tracers"
+	"github.com/liuguodong24-8/go-fff-master/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

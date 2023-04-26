@@ -19,8 +19,8 @@ package snap
 import (
 	"math/big"
 
-	"github.com/fff-chain/go-fff/common"
 	"github.com/holiman/uint256"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // hashRange is a utility to handle ranges of hashes, Split up the

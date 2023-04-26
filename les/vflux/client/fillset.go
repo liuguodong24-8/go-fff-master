@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/p2p/nodestate"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

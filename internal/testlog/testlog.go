@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

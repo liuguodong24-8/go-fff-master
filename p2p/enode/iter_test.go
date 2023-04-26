@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fff-chain/go-fff/p2p/enr"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

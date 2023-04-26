@@ -19,9 +19,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/fff-chain/go-fff/cmd/utils"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/global_config"
+	"github.com/liuguodong24-8/go-fff-master/cmd/utils"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/global_config"
 	"os"
 	"testing"
 )
@@ -70,15 +70,14 @@ var customGenesisTests = []struct {
 		result: "0x0000000000001339",
 	},
 }
-var test121 =`nohup ./geth --datadir ./data/  --http --http.addr 0.0.0.0 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 0.0.0.0 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --http --allow-insecure-unlock  &`
+var test121 = `nohup ./geth --datadir ./data/  --http --http.addr 0.0.0.0 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 0.0.0.0 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --http --allow-insecure-unlock  &`
 
-var test111 =`nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3bU8HSUk8iFihi9mgFdJhByP8KoFWWH7pmAJ5Ty6T4CRrVSdAsfyQnj --password pass.txt --mine --http --allow-insecure-unlock  &`
+var test111 = `nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3bU8HSUk8iFihi9mgFdJhByP8KoFWWH7pmAJ5Ty6T4CRrVSdAsfyQnj --password pass.txt --mine --http --allow-insecure-unlock  &`
 
-var test112 =`nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3hjGu6TPkWtuwTxSqXJm8h7PBjc8nWPjxSJ2A3bJTuQJyHWqKTLjyDX --password pass.txt --mine --http --allow-insecure-unlock  &`
-var test113 =`nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3o2oe8Zyo8yvG2X1HFBVaCgAKQ9EPN1gpTYyo84SJFftTN7aNAzZSHV --password pass.txt --mine --http --allow-insecure-unlock  &`
-var test114 =`nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF65asrEm3F66bui6mZuHtQQWxT2bWGL6DQYGfdEL31naYF5x5BpEzQwf --password pass.txt --mine --http --allow-insecure-unlock  &`
-var test115 =`nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3TKXUy3E1PG3CSpM6KrjVdBnKZa1Lpm2vwMmUwQuQeJrjCFroBu5LLP --password pass.txt --mine --http --allow-insecure-unlock  &`
-
+var test112 = `nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3hjGu6TPkWtuwTxSqXJm8h7PBjc8nWPjxSJ2A3bJTuQJyHWqKTLjyDX --password pass.txt --mine --http --allow-insecure-unlock  &`
+var test113 = `nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3o2oe8Zyo8yvG2X1HFBVaCgAKQ9EPN1gpTYyo84SJFftTN7aNAzZSHV --password pass.txt --mine --http --allow-insecure-unlock  &`
+var test114 = `nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF65asrEm3F66bui6mZuHtQQWxT2bWGL6DQYGfdEL31naYF5x5BpEzQwf --password pass.txt --mine --http --allow-insecure-unlock  &`
+var test115 = `nohup ./fffnode  --http --http.addr 127.0.0.1 --http.port 8488 --http.api admin,debug,web3,eth,txpool,personal,ethash,miner,net  --http.corsdomain "*"  --ws --ws.addr 127.0.0.1 --ws.port 8588 --ws.api admin,debug,web3,eth,txpool,personal,ethash,miner,net --ws.origins  "*" --unlock FFF3TKXUy3E1PG3CSpM6KrjVdBnKZa1Lpm2vwMmUwQuQeJrjCFroBu5LLP --password pass.txt --mine --http --allow-insecure-unlock  &`
 
 // Tests that initializing Geth with a custom genesis block and chain definitions
 // work properly.
@@ -90,7 +89,7 @@ func TestCustomGenesis(t *testing.T) {
 
 	}
 	// Query the custom genesis block
-	args := []string{"",  "--http", "--allow-insecure-unlock"}
+	args := []string{"", "--http", "--allow-insecure-unlock"}
 	os.Args = args
 	if err := app.Run(os.Args); err != nil {
 		fmt.Fprintln(os.Stderr, err)

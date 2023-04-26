@@ -19,9 +19,9 @@ package eth
 import (
 	"time"
 
-	"github.com/fff-chain/go-fff/common/bitutil"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/common/bitutil"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
 )
 
 const (

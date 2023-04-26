@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/fff-chain/go-fff/log"
+	"github.com/liuguodong24-8/go-fff-master/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

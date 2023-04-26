@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

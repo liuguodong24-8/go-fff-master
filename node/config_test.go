@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

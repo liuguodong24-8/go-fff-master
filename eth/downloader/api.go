@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/fff-chain/go-fff"
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/event"
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/event"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

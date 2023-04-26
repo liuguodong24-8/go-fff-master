@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/fff-chain/go-fff/common/mclock"
-	"github.com/fff-chain/go-fff/les/utils"
-	"github.com/fff-chain/go-fff/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/common/mclock"
+	"github.com/liuguodong24-8/go-fff-master/les/utils"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

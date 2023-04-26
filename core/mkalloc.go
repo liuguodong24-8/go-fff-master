@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build none
 // +build none
 
 /*
@@ -34,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

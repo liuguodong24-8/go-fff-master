@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/common/hexutil"
-	"github.com/fff-chain/go-fff/common/math"
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/rawdb"
-	"github.com/fff-chain/go-fff/core/types"
-	"github.com/fff-chain/go-fff/core/vm"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/eth/tracers"
-	"github.com/fff-chain/go-fff/params"
-	"github.com/fff-chain/go-fff/rlp"
-	"github.com/fff-chain/go-fff/tests"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/common/hexutil"
+	"github.com/liuguodong24-8/go-fff-master/common/math"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/rawdb"
+	"github.com/liuguodong24-8/go-fff-master/core/types"
+	"github.com/liuguodong24-8/go-fff-master/core/vm"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/eth/tracers"
+	"github.com/liuguodong24-8/go-fff-master/params"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
+	"github.com/liuguodong24-8/go-fff-master/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/fff-chain/go-fff/eth/tracers/js"
-	_ "github.com/fff-chain/go-fff/eth/tracers/native"
+	_ "github.com/liuguodong24-8/go-fff-master/eth/tracers/js"
+	_ "github.com/liuguodong24-8/go-fff-master/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

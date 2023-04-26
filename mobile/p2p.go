@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

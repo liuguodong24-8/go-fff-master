@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fff-chain/go-fff/rpc"
+	"github.com/liuguodong24-8/go-fff-master/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

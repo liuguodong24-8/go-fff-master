@@ -28,9 +28,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/fff-chain/go-fff/crypto"
-	"github.com/fff-chain/go-fff/crypto/ecies"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/crypto"
+	"github.com/liuguodong24-8/go-fff-master/crypto/ecies"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

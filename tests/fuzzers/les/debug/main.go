@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/fff-chain/go-fff/tests/fuzzers/les"
+	"github.com/liuguodong24-8/go-fff-master/tests/fuzzers/les"
 )
 
 func main() {

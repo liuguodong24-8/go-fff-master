@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 type AddrLocker struct {

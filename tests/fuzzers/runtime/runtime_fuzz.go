@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/fff-chain/go-fff/core/vm/runtime"
+	"github.com/liuguodong24-8/go-fff-master/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

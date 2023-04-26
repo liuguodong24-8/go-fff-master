@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/ethdb"
-	"github.com/fff-chain/go-fff/rlp"
-	"github.com/fff-chain/go-fff/trie"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
+	"github.com/liuguodong24-8/go-fff-master/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

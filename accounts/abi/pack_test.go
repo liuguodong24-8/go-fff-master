@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fff-chain/go-fff/common"
+	"github.com/liuguodong24-8/go-fff-master/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

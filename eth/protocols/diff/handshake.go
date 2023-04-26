@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fff-chain/go-fff/common/gopool"
-	"github.com/fff-chain/go-fff/p2p"
+	"github.com/liuguodong24-8/go-fff-master/common/gopool"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
 )
 
 const (

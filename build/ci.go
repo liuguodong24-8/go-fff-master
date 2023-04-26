@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build none
 // +build none
 
 /*
@@ -58,9 +59,9 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/fff-chain/go-fff/crypto/signify"
-	"github.com/fff-chain/go-fff/internal/build"
-	"github.com/fff-chain/go-fff/params"
+	"github.com/liuguodong24-8/go-fff-master/crypto/signify"
+	"github.com/liuguodong24-8/go-fff-master/internal/build"
+	"github.com/liuguodong24-8/go-fff-master/params"
 )
 
 var (
@@ -844,7 +845,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/fff-chain/go-fff/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/liuguodong24-8/go-fff-master/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -973,7 +974,7 @@ func doXCodeFramework(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the iOS XCode framework
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/fff-chain/go-fff/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/liuguodong24-8/go-fff-master/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

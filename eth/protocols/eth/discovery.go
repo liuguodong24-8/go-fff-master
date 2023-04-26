@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/fff-chain/go-fff/core"
-	"github.com/fff-chain/go-fff/core/forkid"
-	"github.com/fff-chain/go-fff/p2p/enode"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/core"
+	"github.com/liuguodong24-8/go-fff-master/core/forkid"
+	"github.com/liuguodong24-8/go-fff-master/p2p/enode"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

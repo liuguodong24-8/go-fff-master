@@ -3,10 +3,10 @@ package diff
 import (
 	"math/rand"
 
-	"github.com/fff-chain/go-fff/common"
-	"github.com/fff-chain/go-fff/log"
-	"github.com/fff-chain/go-fff/p2p"
-	"github.com/fff-chain/go-fff/rlp"
+	"github.com/liuguodong24-8/go-fff-master/common"
+	"github.com/liuguodong24-8/go-fff-master/log"
+	"github.com/liuguodong24-8/go-fff-master/p2p"
+	"github.com/liuguodong24-8/go-fff-master/rlp"
 )
 
 const maxQueuedDiffLayers = 12

@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/fff-chain/go-fff/ethdb"
+	"github.com/liuguodong24-8/go-fff-master/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database
